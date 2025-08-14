@@ -9,7 +9,8 @@ const LABELS = {
     progress: "Progress",
     placeholder: "Add task...",
     note: "Tasks are saved in your browser (localStorage).",
-    language: "Language"
+    language: "Language",
+    reward: "Great job!",
   },
   ru: {
     add: "Добавить",
@@ -18,7 +19,8 @@ const LABELS = {
     progress: "Прогресс",
     placeholder: "Добавить дело...",
     note: "Задачи сохраняются в браузере (localStorage).",
-    language: "Язык"
+    language: "Язык",
+    reward: "Молодец!",
   },
   fi: {
     add: "Lisää",
@@ -27,7 +29,8 @@ const LABELS = {
     progress: "Edistyminen",
     placeholder: "Lisää tehtävä...",
     note: "Tehtävät tallennetaan selaimeen (localStorage).",
-    language: "Kieli"
+    language: "Kieli",
+    reward: "Hienoa!",
   }
 };
 const TASKS_EN = [

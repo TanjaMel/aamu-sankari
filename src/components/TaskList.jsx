@@ -5,9 +5,9 @@ export default function TaskList() {
   const { tasks, toggleTask } = useStore();
 
   return (
-      <ul className="list">
+      <div className="task-list">
         {tasks.map((t) => (
-            <li key={t.id} className={`item ${t.done ? "done" : ""}`}>
+            <div key={t.id} className={`task-item ${t.done ? "done" : ""}`}>
               <input
                   id={`task-${t.id}`}
                   type="checkbox"
@@ -15,8 +15,8 @@ export default function TaskList() {
                   onChange={() => toggleTask(t.id)}
               />
               <label htmlFor={`task-${t.id}`}>{t.text}</label>
-            </li>
+            </div>
         ))}
-      </ul>
+      </div>
   );
 }

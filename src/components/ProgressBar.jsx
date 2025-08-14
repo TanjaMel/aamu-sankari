@@ -1,8 +1,12 @@
 import React, { useMemo } from "react";
 import { useStore } from "../store/useStore";
 
+
+
 export default function ProgressBar() {
   const { tasks } = useStore();
+  const { getLabels } = useStore();
+  const t = getLabels();
 
   const progress = useMemo(() => {
     const total = tasks.length || 1;
@@ -12,7 +16,9 @@ export default function ProgressBar() {
 
   return (
       <section className="mb-5">
-        <label className="label">Progress: {progress}%</label>
+
+        <label>{t.progress}: {progress}%</label>
+
         <div className="progress">
           <div style={{ width: `${progress}%` }} />
         </div>
