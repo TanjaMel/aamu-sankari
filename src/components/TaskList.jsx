@@ -10,6 +10,7 @@ export default function TaskList() {
             <div key={t.id} className={`task-item ${t.done ? "done" : ""}`}>
               <input
                   id={`task-${t.id}`}
+                  className={`task-checkbox`}
                   type="checkbox"
                   checked={t.done}
                   onChange={() => toggleTask(t.id)}
