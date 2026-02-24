@@ -1,12 +1,24 @@
-# React + Vite
+# Aamu Sankari
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Aamu Sankari** is a project focused on making mornings easier and more motivating — a simple, friendly experience that helps users start the day with structure and energy.
 
-Currently, two official plugins are available:
+## Overview
+**Aamu Sankari** is a kid-friendly app that helps children follow a morning routine step by step (getting dressed, brushing teeth, breakfast, etc.) in a calm and motivating way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Aamu Sankari** on lapsiystävällinen sovellus, joka auttaa lasta käymään aamurutiinin läpi vaihe vaiheelta (pukeutuminen, hampaiden pesu, aamupala jne.) rauhallisesti ja motivoivasti.
 
-## Expanding the ESLint configuration
+## Key Ideas / Features
+- Morning routine support (checklists, steps, or reminders)
+- Simple, clean UI
+- Mobile-friendly experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Replace the bullets above with the real features of your project.
+
+## Tech Stack
+- (Add your stack here — e.g. Vue 3 / Vuetify / Vite)
+
+## Getting Started
+
+### Install dependencies
+```bash
+npm install
