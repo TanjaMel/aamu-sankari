@@ -15,8 +15,9 @@
 > Replace the bullets above with the real features of your project.
 
 ## Tech Stack
-- (Add your stack here — e.g. Vue 3 / Vuetify / Vite)
-
+- JavaScript
+- CSS 
+- HTML
 ## Getting Started
 
 ### Install dependencies
